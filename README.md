@@ -1,6 +1,6 @@
 # 7DaysOfCode_SpotifyML
 
-- ⚡ This GitHub repository contains code and resources for Alura's Challenge, a project that analyzes Spotify data and predicts song popularity using Python and Machine Learning. 
+- ⚡ This GitHub repository contains code and resources for [Alura's Challenge](https://7daysofcode.io/matricula/machine-learning), a project that analyzes Spotify data and predicts song popularity using Python and Machine Learning. 
 
 
 - 🔭 The challenge during 7DaysOfCode is to improve my skills in data manipulation, visualization, and analysis using Machine Learning. The main goal is to analyze Spotify data and apply Machine Learning techniques to predict the popularity of songs. To achieve this, I will go through different stages of a Machine Learning project, including data collection, exploratory analysis, and model validation.

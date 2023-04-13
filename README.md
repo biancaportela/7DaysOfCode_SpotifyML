@@ -14,7 +14,7 @@
 |       | Main Goal   | Status | Completed day | 
 |-------|--------------|--------|----------------|
 | Day One | Data Collection and EDA   | ✔️    | 12-04-2023       | 
-| Day Two  | Pre-processing  | -     | ---         | 
+| Day Two  | Pre-processing  | ✔️    | 13-04-2023         | 
 | Day Three  | Splitting the data | -      | ---         | 
 | Day Four   | Machine Learning Models     | -      | ---         |
 | Day Five   | Evaluation  | -      | ---          | 

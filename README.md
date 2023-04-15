@@ -16,7 +16,7 @@
 | Day One | Data Collection and EDA   | ✔️    | 12-04-2023       | 
 | Day Two  | Pre-processing  | ✔️    | 13-04-2023         | 
 | Day Three  | Splitting the data | ✔️      | 14-04-2023         | 
-| Day Four   | Machine Learning Models     | -      | ---         |
+| Day Four   | Machine Learning Models     |  ✔️     | 15-04-2023        |
 | Day Five   | Evaluation  | -      | ---          | 
 | Day Six   | Resampling  | -      | ---          | 
 | Day Seven   | Prediction | -      | ---         |

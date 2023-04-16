@@ -17,7 +17,7 @@
 | Day Two  | Pre-processing  | ✔️    | 13-04-2023         | 
 | Day Three  | Splitting the data | ✔️      | 14-04-2023         | 
 | Day Four   | Machine Learning Models     |  ✔️     | 15-04-2023        |
-| Day Five   | Evaluation  | -      | ---          | 
+| Day Five   | Evaluation  | ✔️      | 16-04-2023          | 
 | Day Six   | Resampling  | -      | ---          | 
 | Day Seven   | Prediction | -      | ---         |
 

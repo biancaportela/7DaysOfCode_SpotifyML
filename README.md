@@ -18,8 +18,8 @@
 | Day Three  | Splitting the data | ✔️      | 14-04-2023         | 
 | Day Four   | Machine Learning Models     |  ✔️     | 15-04-2023        |
 | Day Five   | Evaluation  | ✔️      | 16-04-2023          | 
-| Day Six   | Resampling  | -      | ---          | 
-| Day Seven   | Prediction | -      | ---         |
+| Day Six   | Resampling  | ✔️      | 19-04-2023          | 
+| Day Seven   | Prediction | ✔️      | 19-04-2023         |
 
 ## Bussiness Problem
 

@@ -22,7 +22,7 @@ To evaluate the models, a cross-validation method with 5 folds was employed, and
 
 These steps are recommended for further improvement in the project:
 
-    - Conducting a more detailed feature selection process: This involves considering categorical features such as genre and artists, which may have a significant influence on the popularity of a song. Performing frequency encoding on these columns can help capture their information, and further analysis such as feature importance or correlation analysis can aid in selecting the most relevant features for the model.
+   - Conducting a more detailed feature selection process: This involves considering categorical features such as genre and artists, which may have a significant influence on the popularity of a song. Performing frequency encoding on these columns can help capture their information, and further analysis such as feature importance or correlation analysis can aid in selecting the most relevant features for the model.
 
    - Reducing dimensionality of the data through PCA analysis: Principal Component Analysis (PCA) is a dimensionality reduction technique that can help capture the most important information from a large number of features. By reducing the dimensionality of the data, the model may benefit from a more focused and relevant set of features, which could improve its performance.
    
@@ -30,7 +30,7 @@ By incorporating these steps into the project, it may be possible to improve the
 
 You can find the detailed analysis and code [here](https://github.com/biancaportela/7DaysOfCode_SpotifyML/blob/main/projeto_final.ipynb)
 
-
+### 7 days of code through the days
 
 |       | Main Goal   | Status | Completed day | 
 |-------|--------------|--------|----------------|

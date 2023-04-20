@@ -15,10 +15,29 @@
 The topic I am exploring is Hit Song Science (HSS), which is a research field that focuses on predicting the success of songs before they are released in the market. HSS is a sub-area of Music Information Retrieval (MIR), which involves gathering information from songs [(ARAUJO, CRISTO AND GIUST, 2020)](https://seer.ufrgs.br/rita/article/view/RITA_VOL27_NR4_108). Pachet and Roy mentioned in their paper [“Hit Song is Not Yet a Science”](https://ismir2008.ismir.net/papers/ISMIR2008_133.pdf) that the idea behind HSS is that cultural items, such as songs, have specific technical features that make them preferred by a majority of people. These features can be extracted using algorithms to automate the prediction process for new songs.
 
 The problem I am trying to solve is to predict the popularity of songs and artists. I want to develop data-driven models that can accurately forecast the success of songs and artists on music streaming platforms like Spotify. By leveraging data and insights, I aim to help musicians and record labels make informed decisions about which songs and artists to promote, invest in, and potentially collaborate with. This can help them optimize their marketing strategies, allocate resources effectively, and increase their chances of success in a highly competitive music industry. I analyzed a Spotify database of over 100,000 songs and conducted a basic EDA to identify trends. I observed that the top 25% of the distribution was had small scores - 50 out of 100 - indicating that the dataset was skewed towards less popular songs. I also identified hidden duplicates and dropped them to increase the number of observations to over 80,000.
+
+| | count	    | mean	    |     std	  |  min	 |  25%	      |   50%	    |   75%	  |   max   |
+|-----------|-----------|-----------|-----------|--------|------------|-----------|---------|---------|
+popularity	| 113549.0	| 33.324433	| 22.283855 |	0.0000 |	17.000000 |	35.000000 |	50.0000 |	100.00000
+
+<p float='center'>
+  <img src='https://github.com/biancaportela/7DaysOfCode_SpotifyML/blob/main/pictures/mean_popularity.png?raw=true'>
+</p>
   
 The modeling process involved testing several baseline models, including Dummy Classifiers and Logistic Regression. To address the issue of imbalance in the dataset and further improve the model's performance, resampling techniques were applied and SMOTE was found to be the most effective. The performance of different models, including Logistic Regression, KNN, Decision Tree, Random Forest, and XGBoost, were compared and Random Forest was selected as the best performer. The model was further optimized through hyperparameter tuning using Random Search and Grid Search.
 
-To evaluate the models, a cross-validation method with 5 folds was employed, and the model was finally trained on a test set to assess its ability to generalize. The precision score was found to be 0.11 and the F1-Score was 0.13, which were low but expected given the complexity of the factors that influence the popularity of a song, many of which are related to behavioral and emotional factors that could not be fully explored in this dataset. Similar discussions are found in other research papers on Hit Song Science, such as the previously cited "Hit Song Science is Not Yet a Science".
+<p float='center'>
+  <img src='https://github.com/biancaportela/7DaysOfCode_SpotifyML/blob/main/pictures/smote_metrics.png?raw=true'>
+</p>
+
+To evaluate the models, a cross-validation method with 5 folds was employed, and the model was finally trained on a test set to assess its ability to generalize. The precision score was found to be ~0.11 and the F1-Score was ~0.13, which were low but expected given the complexity of the factors that influence the popularity of a song, many of which are related to behavioral and emotional factors that could not be fully explored in this dataset. Similar discussions are found in other research papers on Hit Song Science, such as the previously cited "Hit Song Science is Not Yet a Science".
+
+|           | Random Forest Prediction |
+|-----------|--------------------------|
+| Accuracy  |   0.9406619121907733     |
+| Precision |   0.11456859971711457    |
+| Recall    |   0.15576923076923077    |
+| F1-Score  |  0.13202933985330073     |
 
 These steps are recommended for further improvement in the project:
 

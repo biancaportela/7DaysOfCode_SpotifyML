@@ -24,7 +24,7 @@ popularity	| 113549.0	| 33.324433	| 22.283855 |	0.0000 |	17.000000 |	35.000000 |
   <img src='https://github.com/biancaportela/7DaysOfCode_SpotifyML/blob/main/pictures/mean_popularity.png?raw=true'>
 </p>
   
-The modeling process involved testing several baseline models, including Dummy Classifiers and Logistic Regression. To address the issue of imbalance in the dataset and further improve the model's performance, resampling techniques were applied and SMOTE was found to be the most effective. The performance of different models, including Logistic Regression, KNN, Decision Tree, Random Forest, and XGBoost, were compared and Random Forest was selected as the best performer. The model was further optimized through hyperparameter tuning using Random Search and Grid Search.
+The modeling process involved testing several baseline models, including Dummy Classifiers and Logistic Regression. To address the issue of class imbalance in the dataset and further improve the model's performance, resampling techniques were applied and SMOTE was found to be the most effective. The performance of different models, including Logistic Regression, KNN, Decision Tree, Random Forest, and XGBoost, were compared and Random Forest was selected as the best performer. The model was further optimized through hyperparameter tuning using Random Search and Grid Search.
 
 <p float='center'>
   <img src='https://github.com/biancaportela/7DaysOfCode_SpotifyML/blob/main/pictures/smote_metrics.png?raw=true'>
@@ -47,7 +47,7 @@ These steps are recommended for further improvement in the project:
    
 By incorporating these steps into the project, it may be possible to improve the precision and performance of the model, and gain deeper insights into the factors that influence the popularity of songs.
 
-You can find the detailed analysis and code [here](https://github.com/biancaportela/7DaysOfCode_SpotifyML/blob/main/projeto_final.ipynb)
+You can find the detailed analysis and code [here](https://github.com/biancaportela/7DaysOfCode_SpotifyML/blob/main/projeto_final.ipynb).
 
 ### 7 days of code through the days
 
